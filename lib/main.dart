@@ -59,7 +59,9 @@ class _ClockState extends State<Clock> {
           )
         ],
         currentIndex: selectedIndex,
-        fixedColor: Colors.deepPurple,
+        backgroundColor: Colors.black,
+        unselectedItemColor: Colors.white,
+        fixedColor: Colors.red[500],
         onTap: onItemTapped,
       ) ,
 
